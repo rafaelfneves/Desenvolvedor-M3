@@ -6,14 +6,105 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Desenvolvedor M3</title>
+
   <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
 </head>
 
 <body>
 
-</body>
-<h1>Desafio m3</h1>
+  <!--Menu de cima-->
+  <div class="container topnav">
+    <div class="row">
+      <div class="col-sm">
+        <img src="img/logo-m3.png" height="80%" style="margin-top: 10px;margin-bottom: 10px;">
+      </div>
+      <div class="col-sm">
+       <!--One of three columns-->
+      </div>
+      <div class="col-sm">
+       <!--One of three columns-->
+      </div>
+    </div>
+  </div>
+  <hr style="height:2px;border-width:0;color:rgb(197, 197, 197);background-color:rgb(197, 197, 197)">
 
+
+  <!--BODY-->
+  <div class="container topnav">
+    <div class="row">
+
+      <!--LATERAL ESQUERDA-->
+      <div class="col-sm">
+        <h2>Blusas</h2>
+        <br>
+        <h4>CORES</h4>
+        
+        <!--CHECKBOX-->
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">
+            Amarelo
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Azul
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+          <label class="form-check-label" for="exampleRadios2">
+            Branco
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+          <label class="form-check-label" for="exampleRadios2">
+            Cinza
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5">
+          <label class="form-check-label" for="exampleRadios2">
+            Laranja
+          </label>
+        </div>
+        <!--Mostrar mais cores-->
+        <button style="color: dimgray; padding: 0; border: none; background: none;">
+          <span onclick="myFunction()" id="myBtn">
+          <u>Ver todas as cores  <i class="arrow down"></i></u></span></button>
+          <span id="more">42
+
+          </span>
+
+        <!--TAMANHO-->
+        <div id="tamanho">
+          <br><br>
+          <h4>TAMANHOS</h4>
+          
+          <label><input type="radio" name="select" /><span>a</span> Item 1</label>
+          <label><input type="radio" name="select" /><span>b</span> Item 2</label>
+
+        </div>
+
+      </div>
+
+      <!--MEIO DO SITE-->
+      <div class="col-sm">
+        One of three columns
+      </div>
+
+      <!--DIREITA DO SITE-->
+      <div class="col-sm">
+        One of three columns
+      </div>
+    </div>
+  </div>
+
+</body>
 <script src="bundle.js"></script>
 
 </html>
